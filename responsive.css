@@ -31,4 +31,19 @@
         align-items:center;
     }
 
+    .content{
+        width:90%;
+        margin:40px 0;
+    }
+
+    .content p{
+        width:100%;
+        font-size:16px;
+        line-height:1.5;
+    }
+
+    .content a{
+        font-size:24px;
+    }
+
 }
