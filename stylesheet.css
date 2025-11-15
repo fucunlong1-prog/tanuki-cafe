@@ -35,7 +35,7 @@ header{
     opacity:1;
 }
 
-header h1{
+.header-logo a{
     font-size:40px;
     opacity:0.5;
     padding-left:20px;
@@ -47,6 +47,7 @@ header a{
     font-size:20px;
     margin-left:10px;
     opacity:0.8;
+    text-decoration:none;
 }
 
 header a:hover{
@@ -54,8 +55,8 @@ header a:hover{
 }
 
 .main {
-    height:600px;
-    background-image:url(https://cafe-image.com/wp-content/uploads/2024/07/c896c6ff7b3a44cc1e9e27ccedd12cd1-1.jpg);
+    height:800px;
+    background-image:url(https://cdn.pixabay.com/photo/2016/04/12/11/19/coffee-1324126_1280.jpg);
     background:cover;
     text-align:center;
     opacity:0.9;
@@ -90,14 +91,21 @@ header a:hover{
 
 .content a{
     position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-    color:black;
-    display:block;
+    display:flex;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    color:rgba(136, 71, 71, 0.8);
     text-shadow:2px 2px 5px rgba(0,0,0,0.5);
     font-size:30px;
-    
+    text-decoration:none;
+}
+
+.content a:hover{
+    background-color:rgba(255,255,255,0.3);
 }
 
 .contents-wrap{
@@ -161,6 +169,27 @@ footer{
     padding-left:50px;
 }
 
+.footer-left p{
+    padding-top:10px;
+}
+
 .footer-right{
     padding-right:50px;
+}
+
+.header-right.active{
+    display:block;
+    position:absolute;
+    top:80px;
+    right:0;
+    background-color:rgba(187,157,85,0.95);
+    width:100%;
+    text-align:center;
+    padding:20px 0;
+}
+
+.header-right.active a {
+    display:block;
+    margin:15px 0;
+    font-size:22px;
 }
