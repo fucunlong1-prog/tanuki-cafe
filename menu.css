@@ -1,0 +1,28 @@
+.menu{
+    justify-content: space-between;
+    list-style:none;
+}
+
+.coffee-menu{
+    background-color:rgba(187,152,85,0.8);
+    height:300px;
+    width:300px;
+    margin-left:200px;
+}
+
+.attention{
+    font-size:12px;
+}
+
+.tea-menu{
+   background-color:rgba(187,152,85,0.8);
+   height:300px;
+    width:300px;
+}
+
+.food-menu{
+    background-color:rgba(187,152,85,0.8);
+    height:300px;
+    width:300px;
+    margin-right:200px;
+}
