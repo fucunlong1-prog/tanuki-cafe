@@ -124,7 +124,16 @@ header a:hover{
     position:relative;
     margin:80px 0 80px 0;
     width:50%;
+    opacity:0;
+    transform:translateY(30px) rotate(20deg);
+    transition:all 0.6s ease;
 }
+
+.content.show{
+    opacity:1;
+    transform:translateY(0) rotate(0deg);
+}
+
 
 .content img{
     width:100%;
