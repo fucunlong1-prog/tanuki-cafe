@@ -126,7 +126,7 @@ header a:hover{
     width:50%;
     opacity:0;
     transform:translateY(30px) rotate(20deg);
-    transition:all 0.6s ease;
+    transition:all 1.5s ease;
 }
 
 .content.show{
