@@ -57,6 +57,7 @@
     .menu{
         flex-direction:column;
         text-align:center;
+        top:300px;
     }
 
 }
