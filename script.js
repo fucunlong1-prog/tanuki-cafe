@@ -5,3 +5,19 @@ menuIcon.addEventListener(`click`, () => {
     headerRight.classList.toggle(`active`);
     menuIcon.classList.toggle(`active`);
 });
+
+const contents = document.querySelectorAll('.content');
+
+const observer1 = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }else{
+        entry.target.classList.remove('show');
+    }
+  });
+});
+
+contents.forEach(content => observer1.observe(content));
+
+const yuges = document.querySelectorAll('.yuge');
