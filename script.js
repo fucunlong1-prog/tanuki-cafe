@@ -19,5 +19,3 @@ const observer1 = new IntersectionObserver((entries) => {
 });
 
 contents.forEach(content => observer1.observe(content));
-
-const yuges = document.querySelectorAll('.yuge');
