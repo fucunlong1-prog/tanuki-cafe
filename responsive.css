@@ -60,4 +60,27 @@
         margin-top:80px;
     }
 
+    .about-contain{
+        display:flex;
+        flex-direction:column; 
+        padding-top: 80px; /* ← ヘッダーの高さ分だけ確保 */
+    }
+
+    .about{
+        margin:0 auto;
+        padding-top: 0;
+    }
+
+    .tanuki-cafe-img{
+        height:auto;
+        border-radius: 6px;
+        display:block;
+        margin:0 auto;
+    }
+
+    
+   
+
+
+
 }
