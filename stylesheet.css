@@ -264,3 +264,18 @@ footer{
     margin:15px 0;
     font-size:22px;
 }
+
+.map{
+    height:800px;
+    background-image:url(https://cdn.pixabay.com/photo/2016/04/12/11/19/coffee-1324126_1280.jpg);
+    background:cover;
+    text-align:center;
+    opacity:0.9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    margin-bottom:30px;
+    text-shadow:5px 5px 8px black;
+    flex-direction:column;
+}
